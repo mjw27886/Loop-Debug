@@ -1,0 +1,13 @@
+
+public class LoopDebug2 {
+	public static void main(String [] args) {
+	int evenNumber, count=1;
+		
+	do {
+		evenNumber = 2*count;
+		count ++;
+		System.out.println(evenNumber);
+			
+}while (count < 200);		
+}
+}
